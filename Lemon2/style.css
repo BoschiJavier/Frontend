@@ -1,5 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+body{font-family: 'Inter', sans-serif;}
+
+h1{color: white;
+font-weight: 900;}
+ul{
+    list-style-type:none;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    font-style: italic;
+}
 
 .banner{
-    background-image: url(../Lemon2/img/lemon-pie\ 1.png);
+  /*Uso un atajo de lo de abajo*/  
+  background: wheat url(../Lemon2/img/lemon-pie\ 1.png) no-repeat;
+  /*  background-color: wheat;
+  background-image: url(../Lemon2/img/lemon-pie\ 1.png);
+  background-repeat: no-repeat;*/
+  background-size: cover;
+    height: 400px;
+    position: relative;
 }
+.banner p{
+    color:white;
+}
+.opacidad{
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    top: 0;
+
+}
+
+/* Header*/
+
+

@@ -1,7 +1,11 @@
+main{margin: 0  auto;
+width: 70%}
+
 .tituloSeccion{
     font-size: 23px ;
     background-color:#C4C4C4 ;
-    COLOR: #005677
+    COLOR: #005677;
+    margin: 50  auto
 }
 .spanNegrita {
     font-weight:bold
